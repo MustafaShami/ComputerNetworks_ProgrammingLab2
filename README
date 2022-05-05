@@ -1,0 +1,18 @@
+Mustafa Shami    May 3rd 2022
+ TO RUN PROGRAM IN TERMINAL (Example)
+      1.  'make clean'   -> command to remove old executable
+      2.  'make'         -> to create new executable
+      3.  './mylinkstate input.txt 7 0'   -> parameters are: inputfile name AND which node you want to find all the paths for
+                                                                  AND flag 1 or 0. (1 will display immediate table for each iteration)
+
+EXECUTABLE (after 'make')
+    - mylinkstate
+
+NOTE: The formatting gets messed up with large number of nodes
+NOTE: I added a table that tells distance from any node to the source node
+             It was not required, but I added it because it helped see the data
+            if the formatting got messed up.
+NOTE: Maximum number of nodes/vertices upto 500
+
+TESTED LOCALLY ON MAC OS monterey 12.3 in Clion
+TESTED ON CSEGRID (Ran without issues) just some formatting issues at larger numbers of nodes/vertices
